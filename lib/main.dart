@@ -25,7 +25,7 @@ class _LoginpageState extends State<Loginpage> {
     return Scaffold(
       body: Container(
         height: 200,
-        width: 200,
+        width: 100,
         color: Colors.black,
       ),
     );
