@@ -22,6 +22,12 @@ class Loginpage extends StatefulWidget {
 class _LoginpageState extends State<Loginpage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Container(
+        height: 200,
+        width: 200,
+        color: Colors.black,
+      ),
+    );
   }
 }
