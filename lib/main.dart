@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:clay_containers/clay_containers.dart';
 
 void main() {
   runApp(HoneyComb());
@@ -9,6 +8,7 @@ class HoneyComb extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       home: Loginpage(),
     );
@@ -21,7 +21,7 @@ class Loginpage extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: EdgeInsets.all(8.0),
           child: Column(
             children: [
               Row(
