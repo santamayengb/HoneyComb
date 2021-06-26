@@ -22,8 +22,11 @@ environment:
 
 dependencies:
   clay_containers: ^0.3.2
+  flutter_svg: ^0.17.4
+  google_fonts: ^1.1.0
   flutter:
     sdk: flutter
+
      
 
 
@@ -45,6 +48,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+  - assets/img/
+  - assets/svg/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

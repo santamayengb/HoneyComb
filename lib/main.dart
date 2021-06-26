@@ -50,6 +50,7 @@ class Loginpage extends StatelessWidget {
                 children: [
                   Expanded(
                       child: Container(
+                    height: 150,
                     color: Colors.black12,
                     child: Text("Contaier"),
                   ))
