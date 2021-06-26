@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:clay_containers/clay_containers.dart';
 
 void main() {
   runApp(HoneyComb());
@@ -14,33 +15,11 @@ class HoneyComb extends StatelessWidget {
   }
 }
 
-class Loginpage extends StatefulWidget {
-  @override
-  _LoginpageState createState() => _LoginpageState();
-}
-
-class _LoginpageState extends State<Loginpage> {
+class Loginpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: SafeArea(
-      child: LayoutBuilder(builder: (context, snapshot) {
-        return Column(
-          children: [
-            Center(
-              child: Container(
-                height: 180,
-                width: 320,
-                decoration: BoxDecoration(
-                  gradient:
-                      LinearGradient(colors: [Colors.orange, Colors.yellow]),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-              ),
-            ),
-            Text("Dashboard")
-          ],
-        );
-      }),
-    ));
+    return Scaffold(
+      body: Column(),
+    );
   }
 }
