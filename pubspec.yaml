@@ -21,12 +21,9 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  clay_containers: ^0.3.2
+ 
+  flutter_svg: ^0.22.0  
   
-  flutter_svg: ^0.22.0
-  fl_chart: ^0.35.0
-  google_fonts: ^1.1.0
-  provider: ^5.0.0
   flutter:
     sdk: flutter
 
